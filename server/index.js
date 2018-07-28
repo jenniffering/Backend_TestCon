@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 //routes
-
+app.use('/api/providers', require('./routes/providers.routers'));
 //starting the server
 app.listen(app.get('port'), () =>{
     console.log('Server on port ', app.get('port'));
