@@ -12,3 +12,6 @@ API REST and CRUD for the providers collection
 # Tools
 - Robomongo
 - Postman
+
+# To Run the Project
+write in the console "npm run dev" to start. 
